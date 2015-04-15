@@ -1,0 +1,85 @@
+<html>
+	<head>
+		<title>News Site</title>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,300,700' rel='stylesheet' type='text/css'>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<nav>
+			<img class="menu-icon" src="imgs/hamburger.png"></img>
+			<ul class="nav-list">
+				<li><a href="#featured">Featured</a></li>
+				<li><a href="#human-interest-story">Human Interest</a></li>
+				<li><a href="weather-story">Weather Story</a></li>
+				<li><a href="animal-story">Animal Story</a></li>
+			</ul>
+		</nav>
+
+		<section id="featured">
+			<a href="featured.html">
+				<div class="content">
+					<div class="featured-image-container">
+						<img class="featured-image" src="imgs/monowing.jpg">
+					</div>
+
+					<p class="featured-title">Featured Story</p>
+
+					<p class="featured-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</a>
+		</section>
+
+		<section id="human-interest-story">
+			<a href="humaninterest.html">
+				<div class="content">
+					<p class="human-interest-title">Human Interest Story 1</p>
+
+					<p class="human-interest-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</a>
+		</section>
+
+		<section id="weather-story">
+			<a href="weather.html">
+				<div class="content">
+					<p class="weather-title">Weather Story 1</p>
+
+					<p class="weather-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</a>
+		</section>
+
+		<section id="animal-story">
+			<a href="animalstory.html">
+				<div class="content">
+					<p class="animal-title">Animal Story 1</p>
+
+					<p class="animal-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</a>
+		</section>
+
+		<footer>
+			<a href="http://icons8.com/web-app/8113/Menu-Filled">Icons from Icons8</a> 
+		</footer>
+
+		<script type="text/javascript">
+			$(function() {
+				$nav = $('.nav-list');
+
+				$('.menu-icon').click(function(){
+					$nav.slideToggle();
+				})
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,173 @@
+html, body, p {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+section {
+	width: 100%;
+}
+
+nav {
+	background: gray;
+}
+
+.menu-icon {
+	padding: 5 5 5 5;
+}
+
+.nav-list {
+	display: none;
+	list-style-type: none;
+	color: white;
+	padding: 0px;
+	margin: 0px;
+}
+
+.nav-list>li {
+	color: white;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.nav-list>li>a {
+	color: white;
+}
+
+.content {
+	width: 90%;
+	margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+	.content {
+		width: 70%;
+		margin: 0 auto;
+	}
+}
+
+/*BEGIN FEATURED SECTION*/
+
+#featured {
+	background: orange;
+}
+
+.featured-image-container {
+	width: 100%;
+}
+
+.featured-image {
+	max-width: 100%;
+	max-height: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.featured-title {
+	padding-bottom: 5px;
+	font-weight: 500;
+	font-size: 2.5em;
+}
+
+.featured-description {
+	padding-bottom: 10px;
+	font-size: 1.25em;
+}
+
+/*END FEATURED SECTION*/
+
+/*////////////////////////////*/
+
+/*BEGIN HUMAN INTEREST SECTION*/
+
+#human-interest-story {
+	background: #C68DFF;
+}
+
+.human-interest-title {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: 500;
+	font-size: 1.25em;
+}
+
+.human-interest-description {
+	padding-bottom: 10px;
+}
+
+/*END HUMAN INTEREST SECTION*/
+
+/*////////////////////////////*/
+
+/*BEGIN WEATHER STORY SECTION*/
+
+#weather-story {
+	background: #99B2FF;
+}
+
+.weather-title {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: 500;
+	font-size: 1.25em;
+}
+
+.weather-description {
+	padding-bottom: 10px;
+}
+
+/*END WEATHER STORY SECTION*/
+
+/*////////////////////////////*/
+
+/*BEGIN ANIMAL STORY SECTION*/
+
+#animal-story {
+	background: #FF99C2;
+}
+
+.animal-title {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: 500;
+	font-size: 1.25em;
+}
+
+.animal-description {
+	padding-bottom: 10px;
+}
+
+/*END ANIMAL STORY SECTION*/
+
+.featured-description-full {
+	font-size: 1em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+	background: gray;
+	padding: 10px;
+}
+
+footer>a {
+	color: white;
+}
+
+#featured-full-text {
+	background: #EEE;
+	max-height: 100%;
+}
+
+
+
+
